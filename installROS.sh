@@ -1,5 +1,5 @@
 #!/bin/bash
-# Install Robot Operating System (ROS) on NVIDIA Jetson AGX Xavier
+# Install Robot Operating System (ROS) on NVIDIA Jetson Nano Developer Kit
 # Maintainer of ARM builds for ROS is http://answers.ros.org/users/1034/ahendrix/
 # Information from:
 # http://wiki.ros.org/melodic/Installation/UbuntuARM
@@ -121,7 +121,7 @@ echo "Installing rosdep"
 tput sgr0
 sudo apt-get install python-rosdep -y
 # Certificates are messed up on earlier version Jetson for some reason
-# Do not know if it is an issue with the Xavier, test by commenting out
+# Do not know if it is an issue with the Nano, test by commenting out
 # sudo c_rehash /etc/ssl/certs
 # Initialize rosdep
 tput setaf 2
