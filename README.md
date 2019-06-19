@@ -48,7 +48,18 @@ $ ./setupCatkinWorkspace.sh [optionalWorkspaceName]
 
 where optionalWorkspaceName is the name of the workspace to be used. The default workspace name is catkin_ws. This script also sets up some ROS environment variables. Refer to the script for details.
 
+<em><b>Note:</b> On June 7, 2019 the GPG key for ROS was changed due to security issues. If you have ROS installed on your system before this, you should delete the GPG key:</em>
+ 
+<pre>
+$ sudo apt-key del 421C365BD9FF1F717815A3895523BAEEB01FA116
+</pre> 
+
+
 ## Release Notes
+<strong>June 2019</strong>
+* L4T 32.1.0 (JetPack 4.2)
+* Update ROS server GPG key
+
 <strong>March 2019</strong>
 * Initial Release
 * L4T 32.1.0 (JetPack 4.2)
