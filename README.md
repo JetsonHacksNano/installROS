@@ -3,9 +3,6 @@ Install Robot Operating System (ROS) on NVIDIA Jetson Nano Developer Kit
 
 These scripts will install Robot Operating System (ROS) on the NVIDIA Jetson Nano Developer Kit.
 
-For L4T 32.1.0 (JetPack 4.2)
-
-
 The script is based on the Ubuntu ARM install of ROS Melodic: http://wiki.ros.org/melodic/Installation/Ubuntu
 
 Maintainer of ARM builds for ROS is http://answers.ros.org/users/1034/ahendrix/
@@ -56,6 +53,9 @@ $ sudo apt-key del 421C365BD9FF1F717815A3895523BAEEB01FA116
 
 
 ## Release Notes
+<strong>July 2019</strong>
+* L4T 32.2 (JetPack 4.2.1)
+
 <strong>June 2019</strong>
 * L4T 32.1.0 (JetPack 4.2)
 * Update ROS server GPG key
