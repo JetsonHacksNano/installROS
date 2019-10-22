@@ -74,7 +74,7 @@ $ sudo apt-key del 421C365BD9FF1F717815A3895523BAEEB01FA116
 ## License
 MIT License
 
-Copyright (c) 2017-2019 Jetsonhacks
+Copyright (c) 2017-2019 JetsonHacks
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
