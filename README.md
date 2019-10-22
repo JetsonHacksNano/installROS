@@ -53,10 +53,16 @@ $ sudo apt-key del 421C365BD9FF1F717815A3895523BAEEB01FA116
 
 
 ## Release Notes
+<strong>October 2019</strong>
+* vL4T32.2.1
+* L4T 32.2.1 (JetPack 4.2.2)
+
 <strong>July 2019</strong>
+* vL4T32.2
 * L4T 32.2 (JetPack 4.2.1)
 
 <strong>June 2019</strong>
+* vL4T32.1.0
 * L4T 32.1.0 (JetPack 4.2)
 * Update ROS server GPG key
 
