@@ -125,6 +125,11 @@ sudo apt install curl
 curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
 
 tput setaf 2
+echo "Updating apt list"
+tput sgr0
+sudo apt update
+
+tput setaf 2
 echo "Installing ROS"
 tput sgr0
 # This is where you might start to modify the packages being installed, i.e.
